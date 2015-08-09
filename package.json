@@ -1,0 +1,29 @@
+{
+  "name": "anti-social",
+  "version": "0.0.1",
+  "description": "A quick-and-dirty command line utility that unfollows everyone on GitHub.",
+  "bin": {
+    "anti-social": "cmd.js"
+  },
+  "dependencies": {
+    "github": "^0.2.4",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {
+    "standard": "^5.0.2"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderGugel/anti-social.git"
+  },
+  "author": "Alexander Gugel <alexander.gugel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderGugel/anti-social/issues"
+  },
+  "homepage": "https://github.com/alexanderGugel/anti-social#readme",
+  "main": "cmd.js"
+}
